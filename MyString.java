@@ -32,9 +32,9 @@ public class MyString {
         if (str1.length() == 0) {
             return false;
         }
-        // if (str2.length() == 0) {
-        //     return false;
-        // }
+        if (str2.length() == 0) {
+            return true;
+        }
         for (int i = 0; i < str1.length(); i++) {
             if (str1.charAt(i) == str2.charAt(0)){
                 for (int j = 0; j < str2.length(); j++) {
